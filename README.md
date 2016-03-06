@@ -1,7 +1,6 @@
-# babel-exclude-ignore
+# steal-inject-script
 
-By default babel transform ignores evertying in `node_modules`. 
-This module allows to include some modules (folders) from project's `node_modules`.
+Allows to load scripts with [StealJs](https://github.com/stealjs/steal) and [System.js](https://github.com/systemjs/systemjs) using script tag. 
 
 ## usage
 
@@ -24,9 +23,9 @@ Or you may define it in `system config` or `package.json` using `paths` and `met
   }
 }
 ```
-you need to import 'steal-inject-script' before importing script.
+Note: you need to import `steal-inject-script` before importing script.
 
 ## install
 ```bash
-npm install babel-exclude-ignore
+npm install steal-inject-script
 ```
