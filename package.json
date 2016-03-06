@@ -1,0 +1,24 @@
+{
+  "name": "steal-inject-script",
+  "version": "1.0.0",
+  "description": "Loading scripts with script tag with stealjs or systemjs loaders",
+  "main": "inject-script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/whitecolor/steal-inject-script.git"
+  },
+  "keywords": [
+    "stealjs",
+    "systemjs",
+    "script"
+  ],
+  "author": "whitecolor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitecolor/steal-inject-script/issues"
+  },
+  "homepage": "https://github.com/whitecolor/steal-inject-script#readme"
+}
